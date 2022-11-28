@@ -80,6 +80,8 @@ public class UserServiceImp implements UserService {
         User user =modelMapper.map(userDto,User.class);
         return user;
 
+//    this is manual work
+
 //        user.setUserId(userDto.getUserId());
 //        user.setName(userDto.getName());
 //        user.setEmail(userDto.getEmail());
